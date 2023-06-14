@@ -13,12 +13,13 @@ const styles = StyleSheet.create({
         top: 20,
         left: 80,
         fontSize: 24,
+        color: 'red',
     },
     image: {
         height: 100,
     },
     action: {
-        backgroundColor: 'black',
+        backgroundColor: 'rgb(175, 14, 18)',
         color: 'white',
     },
     icon: {

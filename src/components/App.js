@@ -1,6 +1,6 @@
 /**
- * Sample React Native App
- * https://github.com/facebook/react-native
+ * Created By: Gabriel Castellano
+ * Date: 14-06-2023
  *
  * @format
  * @flow
@@ -21,8 +21,8 @@ export default class App extends Component<Props> {
   render() {
     return (
       <Provider store={store}>
-        <Appbar.Header style={{backgroundColor: '#ccccff'}}>
-          <Appbar.Content color={'blue'} style={{backgroundColor: '#ccccff'}} title="CRM APP" subtitle={'Developed using React Native'} />
+        <Appbar.Header style={{backgroundColor: '#d44848'}}>
+          <Appbar.Content color={'blue'} style={{backgroundColor: '#d44848'}} title="CRM APP" subtitle={'Developed using React Native'} />
         </Appbar.Header>
         <Navigation />
       </Provider>
@@ -35,6 +35,6 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#c64c38',
+    backgroundColor: '#fc0328',
   },
 });
